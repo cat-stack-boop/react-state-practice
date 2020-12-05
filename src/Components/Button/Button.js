@@ -3,10 +3,10 @@ import styles from './Button.module.css';
 
 
 
-const Button = (props) => { 
+const Button = ({text,handleClick}) => { 
     return ( 
-        <button onClick={props.handleClick} className={styles.But}>
-            {props.text}
+        <button onClick={handleClick} className={styles.But}>
+            {text}
         </button>
     );
 }
@@ -14,4 +14,12 @@ const Button = (props) => {
 
 export default Button;
 
-
+/*const Button = (props) => { 
+            return ( 
+                <button onClick={props.handleClick} className={styles.But}>
+                    {props.text}
+                </button>
+            );
+        }
+        refactoring. 
+*/
