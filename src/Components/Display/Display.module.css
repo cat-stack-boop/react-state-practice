@@ -1,5 +1,6 @@
 .CounterDisplay { 
     color:blue;
-    margin-left: 200px ;
+   padding: 50px;
+   font-size: 15vh;
 }
 
